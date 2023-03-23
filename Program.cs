@@ -6,7 +6,7 @@
 
         static void Main(string[] args)
         {
-            /*int[,,] a3 = {
+            int[,,] a3 = {
                             {
                                 {1,2},
                                 {4,5}
@@ -43,11 +43,11 @@
                     Console.Write(arr[i][j]);
                 }
                 Console.WriteLine();
-            }*/
+            }
 
             // Constructor
 
-           /* perimeter p=new perimeter();
+           perimeter p=new perimeter();
 
             p.x = 197;
             p.y = 50;
@@ -70,7 +70,38 @@
                 return this.x + this.y;
             }
         }
-        */
+        public struct perimeter
+         {
+
+             public int x;
+             public int y;
+
+             public int add()
+             {
+                 return this.x + this.y;
+             }
+         }
+       
+            // Constructor
+
+            Program p = new Program();
+
+
+            // Constructor with parameter
+
+            Program p1 = new Program("Priya");
+            Console.WriteLine(p1.n);
+
+         }
+
+        public Program() {
+            Console.WriteLine("This is inside the constructor");
+        }
+
+        public Program(String name)
+        {
+            this.n=name;
+        }
 
 
 
