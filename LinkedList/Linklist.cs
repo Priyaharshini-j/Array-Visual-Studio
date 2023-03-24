@@ -3,7 +3,7 @@
         {
             internal class Linklist
             {
-                static void list(string[] args)
+                static void Main(string[] args)
                 {
                     // Linked List
                     var list1 = new LinkedList<int>();
