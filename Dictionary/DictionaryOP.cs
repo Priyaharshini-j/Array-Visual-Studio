@@ -4,7 +4,7 @@
         {
             internal class DictionaryOP
             {
-                static void list(string[] args)
+                static void Main(string[] args)
                 {
                     var Dict = new Dictionary<String, int>();
                     Dict.Add("Red", 2);
